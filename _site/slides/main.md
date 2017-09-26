@@ -33,7 +33,7 @@ advance of deep learning applications
 ---
 
 template: inverse
-# 앞으로 실제 실험해 볼 주제를 생각해야 합니다.
+# 앞으로 실제 실험해 볼 주제를 생각해 보도록 합시다.
 
 ---
 
@@ -144,57 +144,33 @@ template: inverse
 ## Install configuration
 
 ```python
-git clone https://github.com/yj-yu/python-scipy.git
+git clone https://github.com/yj-yu/python-basic.git
 cd python-basic
 ls
 ```
 
-code(https://github.com/yj-yu/python-scipy)
+code(https://github.com/yj-yu/python-basic)
 
 ```bash
 ./code
-├── pandas_matplotlib.ipynb
-├── pycon-2017
-└── scipy-2017-sklearn
+├── Jump-to-python
+├── Python-Lectures
+├── PythonZeroToAll
+└── cs228-material
 
 ```
 
-- pandas_matplotlib : https://github.com/rabernat/python_teaching
-- pycon-2017 : https://github.com/tylerjereddy/pycon-2017/
-- scipy-2017-sklearn : https://github.com/amueller/scipy-2017-sklearn
-
+- Jump-to-python : https://github.com/LegendaryKim/Jump-to-Python
+- Python-Lectures : https://github.com/rajathkmp/Python-Lectures
+- PythonZeroToAll : https://github.com/hunkim/PythonZeroToAll
+- cs228-material : https://github.com/kuleshov/cs228-material.git
+  한글 버전 (AI korea) http://aikorea.org/cs231n/python-numpy-tutorial/
 ---
-
-```python
-cd code
-jupyter notebook
-```
-
-Open pandas_matplotlib.ipynb
-
----
-
-
-template: inverse
-## Python - Matplotlib
-
-
----
-
-
-template: inverse
-## Python - Scipy
-
-
----
-
-
-
+## Install configuration
 
 
 
 ---
-
 
 name: last-page
 class: center, middle, no-number
