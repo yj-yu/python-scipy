@@ -167,7 +167,7 @@ code(https://github.com/yj-yu/python-scipy)
 
 ```python
 cd code
-jupyter notebook
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
 ```
 
 Open pandas_matplotlib.ipynb
@@ -188,9 +188,13 @@ template: inverse
 
 ---
 
+```python
+cd code
+cd scipy-2017-sklearn/notebook
+jupyter notebook
+```
 
-
-
+See the 
 
 
 ---
