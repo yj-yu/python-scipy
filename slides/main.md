@@ -167,6 +167,7 @@ code(https://github.com/yj-yu/python-scipy)
 If you use anaconda, use conda to install scipy
 ```python
 conda install scipy
+pip install scikit-learn
 pip install scikit-image
 pip install pandas
 pip install matplotlib
