@@ -6,22 +6,22 @@ title: Python-basic
 ---
 class: titlepage, no-number
 
-# Python Scipy
+# Python Science toolkit
 ## .gray.author[Youngjae Yu]
 
 ### .x-small[https://github.com/yj-yu/python-scipy]
 ### .x-small[https://yj-yu.github.io/python-scipy]
 
-.bottom.img-66[ ![](images/lablogo.png) ]
+.bottom.img-66[ ![](images/snu-logo.png) ]
 
 ---
 layout: false
 
 ## About
 
-- Overview
+- Review on recent deep learning projects
 - Python numpy, scipy : tutorials and enhanced references
-- Deep neural network tutorial (Tensorflow 101)
+- All you need for ML : Matplotlib, pandas, sklearn etc..
 
 ---
 
@@ -164,6 +164,13 @@ code(https://github.com/yj-yu/python-scipy)
 - scipy-2017-sklearn : https://github.com/amueller/scipy-2017-sklearn
 
 ---
+If you use anaconda, use conda to install scipy
+```python
+conda install scipy
+pip install scikit-image
+pip install pandas
+pip install matplotlib
+```
 
 ```python
 cd code
@@ -176,11 +183,51 @@ Open pandas_matplotlib.ipynb
 
 
 template: inverse
-## Python - Matplotlib
+## Python - Plot your data
 
 
 ---
 
+## There are many libraries based on matplotlib
+
+Googling!
+
+seaborn
+- https://seaborn.pydata.org/
+
+```python
+import seaborn; seaborn.set()
+from matplotlib import pyplot as plt
+%matplotlib inline
+```
+
+
+---
+
+## And you can build your dataset on database environment
+
+pandas
+- http://pandas.pydata.org/
+
+```python
+import pandas as pd
+```
+
+---
+
+## Interactive jupyter notebook
+
+bokeh 
+- interactive visualization library
+- https://bokeh.pydata.org/en/latest/
+
+
+```python
+from bokeh.plotting import figure, show, output_notebook
+output_notebook()
+```
+
+---
 
 template: inverse
 ## Python - Scipy
@@ -193,8 +240,6 @@ cd code
 cd scipy-2017-sklearn/notebook
 jupyter notebook
 ```
-
-See the 
 
 
 ---

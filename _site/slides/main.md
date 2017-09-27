@@ -6,22 +6,22 @@ title: Python-basic
 ---
 class: titlepage, no-number
 
-# Python Scipy
+# Python Science toolkit
 ## .gray.author[Youngjae Yu]
 
 ### .x-small[https://github.com/yj-yu/python-scipy]
 ### .x-small[https://yj-yu.github.io/python-scipy]
 
-.bottom.img-66[ ![](images/lablogo.png) ]
+.bottom.img-66[ ![](images/snu-logo.png) ]
 
 ---
 layout: false
 
 ## About
 
-- Overview
+- Review on recent deep learning projects
 - Python numpy, scipy : tutorials and enhanced references
-- Deep neural network tutorial (Tensorflow 101)
+- All you need for ML : Matplotlib, pandas, sklearn etc..
 
 ---
 
@@ -33,7 +33,7 @@ advance of deep learning applications
 ---
 
 template: inverse
-# 앞으로 실제 실험해 볼 주제를 생각해 보도록 합시다.
+# 앞으로 실제 실험해 볼 주제를 생각해야 합니다.
 
 ---
 
@@ -144,33 +144,106 @@ template: inverse
 ## Install configuration
 
 ```python
-git clone https://github.com/yj-yu/python-basic.git
+git clone https://github.com/yj-yu/python-scipy.git
 cd python-basic
 ls
 ```
 
-code(https://github.com/yj-yu/python-basic)
+code(https://github.com/yj-yu/python-scipy)
 
 ```bash
 ./code
-├── Jump-to-python
-├── Python-Lectures
-├── PythonZeroToAll
-└── cs228-material
+├── pandas_matplotlib.ipynb
+├── pycon-2017
+└── scipy-2017-sklearn
 
 ```
 
-- Jump-to-python : https://github.com/LegendaryKim/Jump-to-Python
-- Python-Lectures : https://github.com/rajathkmp/Python-Lectures
-- PythonZeroToAll : https://github.com/hunkim/PythonZeroToAll
-- cs228-material : https://github.com/kuleshov/cs228-material.git
-  한글 버전 (AI korea) http://aikorea.org/cs231n/python-numpy-tutorial/
----
-## Install configuration
-
-
+- pandas_matplotlib : https://github.com/rabernat/python_teaching
+- pycon-2017 : https://github.com/tylerjereddy/pycon-2017/
+- scipy-2017-sklearn : https://github.com/amueller/scipy-2017-sklearn
 
 ---
+If you use anaconda, use conda to install scipy
+```python
+conda install scipy
+pip install scikit-image
+pip install pandas
+pip install matplotlib
+```
+
+```python
+cd code
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
+```
+
+Open pandas_matplotlib.ipynb
+
+---
+
+
+template: inverse
+## Python - Plot your data
+
+
+---
+
+## There are many libraries based on matplotlib
+
+Googling!
+
+seaborn
+- https://seaborn.pydata.org/
+
+```python
+import seaborn; seaborn.set()
+from matplotlib import pyplot as plt
+%matplotlib inline
+```
+
+
+---
+
+## And you can build your dataset on database environment
+
+pandas
+- http://pandas.pydata.org/
+
+```python
+import pandas as pd
+```
+
+---
+
+## Interactive jupyter notebook
+
+bokeh 
+- interactive visualization library
+- https://bokeh.pydata.org/en/latest/
+
+
+```python
+from bokeh.plotting import figure, show, output_notebook
+output_notebook()
+```
+
+---
+
+template: inverse
+## Python - Scipy
+
+
+---
+
+```python
+cd code
+cd scipy-2017-sklearn/notebook
+jupyter notebook
+```
+
+
+---
+
 
 name: last-page
 class: center, middle, no-number
