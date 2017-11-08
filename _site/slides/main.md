@@ -1,4 +1,4 @@
-name: inverse
+﻿name: inverse
 class: center, middle, inverse
 layout: true
 title: Python-basic
@@ -316,7 +316,7 @@ class: center, middle, no-number
 
 <div style="position:absolute; left:0; bottom:20px; padding: 25px;">
   <p class="left" style="margin:0; font-size: 13pt;">
-  <b>Special Thanks to</b>: 변훈 연구원님, 송재준 교수님</p>
+  
 </div>
 
 .footnote[Slideshow created using [remark](http://github.com/gnab/remark).]
